@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:whgt@400;700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Console", monospace;
+    color: #fff;
+    background-color: rgb(51, 51, 51);
+}
+
+h1 {
+    font-weight: 900;
+    padding-left: 40px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    flex-direction: column;
+}
+
+.box {
+    width: 350px;
+    height: 460px;
+    font-size: 16px;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+.user {
+    margin-top: 30px;
+}
+
+.fas {
+    position: absolute;
+}
+
+input {
+    width: 90%;
+    margin-top: 15px;
+    padding: 0px 30px 15px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #141e75;
+    outline: none;
+    background-color: #eeeeee;
+}
+
+input:focus {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.login-btn {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    background-color: #bebebe;
+    color: #2e2e2e;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.signup span {
+    color: #7fb8e6;
+}
+
+.signup span:hover {
+    color: #3793df;
+}
+
+#message {
+    display:none;
+    background: white;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    top: -100px;
+    padding: 20px 10px 0px 0px;
+    margin-top: 10px;
+  }
+
+  #message h3 {
+      text-align: center;
+      font-size: 18;
+  }
+  
+  #message p {
+    padding: 10px 25px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -10px;
+    content: "✓";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -10px;
+    content: "x";
+  }
+  #gerenciar-funcionario{
+
+    background-color: #5C5C5C5C;
+  }
+  #gerenciar-funcionario h1{
+    margin-bottom: 50px;
+  }
+  #gerenciar-funcionario input{
+    margin-bottom: 20px;
+  }
+  #gerenciar-funcionario button{
+    padding: 10px;
+    font-size: 17px;
+  }
+ 
